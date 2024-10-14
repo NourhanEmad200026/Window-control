@@ -4,7 +4,7 @@
 #include "types.h"
 #include "bitwise_operation.h"
 
-
+//this is new line here
 void DIO_PORTC_init()
 {
   SYSCTL_RCGCGPIO_R|=0x4; 	
